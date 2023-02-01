@@ -9,10 +9,9 @@
     </div> --}}
 </div>
 <div class="row">
-
     @foreach ($news as $item)
         <div class="col-12 col-md-6 col-lg-4">
-            <a href="blog-details.html" class="card mb-3">
+            <a class="card mb-3">
                 <div class="card-body">
                     <div class="row align-items-center">
                         <div class="col-auto">
@@ -29,6 +28,4 @@
             </a>
         </div>
     @endforeach
-    
-
 </div>
