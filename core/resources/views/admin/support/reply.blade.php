@@ -155,7 +155,7 @@
 
 
 @push('breadcrumb-plugins')
-    <x-back route="{{ route('admin.ticket') }}" />
+    <x-back route="{{ route('admin.ticket.index') }}" />
 @endpush
 
 @push('script')
